@@ -12,8 +12,8 @@ export default function NotFound() {
     }, 3000);
 
     () => clearTimeout(t);
-  }, []);
-  
+  }, [router]);
+
   return (
     <Layout>
       <section className="not-found">
